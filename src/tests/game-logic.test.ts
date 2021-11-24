@@ -1,4 +1,4 @@
-import {getWinner, matchPatterns} from '../game-logic'
+import {getWinner, matchPatterns} from 'game-logic'
 
 describe('getWinner', () => {
   test('return null when no winner', () => {
